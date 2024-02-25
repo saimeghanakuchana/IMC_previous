@@ -1,0 +1,55 @@
+#this file shows output of running "bash /local/repository/cloudlab-scripts/setup-core.sh"
+
+hw-tc-offload: on
+Error: Cannot delete qdisc with handle of zero.
+DCBX mode: OS controlled
+Priority trust state: pcp
+default priority:
+Receive buffer size (bytes): 262016,0,0,0,0,0,0,0,total_size=262016
+Cable len: 7
+PFC configuration:
+	priority    0   1   2   3   4   5   6   7
+	enabled     0   0   0   0   0   0   0   0
+	buffer      0   0   0   0   0   0   0   0
+tc: 0 ratelimit: 10.0 Gbps, tsa: vendor
+	 priority:  0
+	 priority:  1
+	 priority:  2
+	 priority:  3
+	 priority:  4
+	 priority:  5
+	 priority:  6
+	 priority:  7
+Capacity test with multiple flows
+[  6]   0.00-120.01 sec  15.0 GBytes  1.08 Gbits/sec                  receiver
+[  6]   0.00-120.01 sec  14.8 GBytes  1.06 Gbits/sec                  receiver
+[  6]   0.00-120.01 sec  13.3 GBytes  0.95 Gbits/sec                  receiver
+[  6]   0.00-120.01 sec  12.9 GBytes  0.93 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  14.4 GBytes  1.03 Gbits/sec                  receiver
+[  6]   0.00-120.01 sec  14.4 GBytes  1.03 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  14.5 GBytes  1.04 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  14.6 GBytes  1.04 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  14.7 GBytes  1.05 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  13.8 GBytes  0.99 Gbits/sec                  receiver
+Capacity test with one flow
+Connecting to host 10.10.2.10, port 5201
+[  5] local 10.10.1.10 port 35174 connected to 10.10.2.10 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-60.00  sec  46.5 GBytes  6.66 Gbits/sec  185   1.32 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.00  sec  46.5 GBytes  6.66 Gbits/sec  185             sender
+[  5]   0.00-60.00  sec  46.5 GBytes  6.66 Gbits/sec                  receiver
+
+iperf Done.
+Latency test
+rtt min/avg/max/mdev = 0.475/0.521/0.546/0.030 ms
+rtt min/avg/max/mdev = 0.478/0.510/0.539/0.033 ms
+rtt min/avg/max/mdev = 0.281/0.490/0.547/0.106 ms
+rtt min/avg/max/mdev = 0.536/0.546/0.555/0.021 ms
+rtt min/avg/max/mdev = 0.541/0.550/0.559/0.021 ms
+rtt min/avg/max/mdev = 0.527/0.539/0.549/0.007 ms
+rtt min/avg/max/mdev = 0.510/0.536/0.549/0.013 ms
+rtt min/avg/max/mdev = 0.477/0.513/0.560/0.036 ms
+rtt min/avg/max/mdev = 0.476/0.524/0.552/0.030 ms
+rtt min/avg/max/mdev = 0.541/0.547/0.558/0.030 ms

@@ -1,0 +1,86 @@
+#this file shows output generated after running "bash /local/repository/cloudlab-scripts/validate.sh"
+
+Error: Cannot delete qdisc with handle of zero.
+Warning: Permanently added 'sender-0' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-1' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-2' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-3' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-4' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-5' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-6' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-7' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-8' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Warning: Permanently added 'sender-9' (ECDSA) to the list of known hosts.
+qdisc pfifo_fast 1: root refcnt 257 bands 3 priomap  1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0)
+ backlog 0b 0p requeues 0
+Capacity test with multiple flows
+Warning: Permanently added 'receiver-0' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-1' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-2' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-3' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-4' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-5' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-6' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-7' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-8' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'receiver-9' (ECDSA) to the list of known hosts.
+[  6]   0.00-120.00 sec  33.7 GBytes  2.41 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  34.1 GBytes  2.44 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  33.6 GBytes  2.40 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  33.3 GBytes  2.38 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  33.2 GBytes  2.37 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  33.3 GBytes  2.38 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  33.2 GBytes  2.38 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  33.6 GBytes  2.40 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  34.2 GBytes  2.45 Gbits/sec                  receiver
+[  6]   0.00-120.00 sec  34.2 GBytes  2.45 Gbits/sec                  receiver
+Capacity test with one flow
+Connecting to host 10.10.2.10, port 5201
+[  5] local 10.10.1.10 port 35148 connected to 10.10.2.10 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-60.00  sec  47.0 GBytes  6.73 Gbits/sec  517    560 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-60.00  sec  47.0 GBytes  6.73 Gbits/sec  517             sender
+[  5]   0.00-60.00  sec  47.0 GBytes  6.73 Gbits/sec                  receiver
+
+iperf Done.
+Latency test
+rtt min/avg/max/mdev = 0.416/0.484/0.535/0.043 ms
+rtt min/avg/max/mdev = 0.215/0.388/0.512/0.127 ms
+rtt min/avg/max/mdev = 0.422/0.510/0.553/0.058 ms
+rtt min/avg/max/mdev = 0.367/0.472/0.543/0.072 ms
+rtt min/avg/max/mdev = 0.404/0.473/0.534/0.045 ms
+rtt min/avg/max/mdev = 0.360/0.417/0.514/0.054 ms
+rtt min/avg/max/mdev = 0.295/0.483/0.552/0.098 ms
+rtt min/avg/max/mdev = 0.425/0.521/0.548/0.054 ms
+rtt min/avg/max/mdev = 0.411/0.440/0.543/0.054 ms
+rtt min/avg/max/mdev = 0.346/0.418/0.550/0.070 ms
